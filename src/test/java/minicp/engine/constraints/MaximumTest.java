@@ -196,8 +196,8 @@ public class MaximumTest extends SolverTest {
 
             assertEquals(6, y.min());
             assertEquals(9, y.max());
-            assertEquals(0, x[1].min());
-            assertEquals(0, x[2].min());
+            assertEquals(6, x[1].min());
+            assertEquals(6, x[2].min());
 
         } catch (NotImplementedException e) {
             NotImplementedExceptionAssume.fail(e);
